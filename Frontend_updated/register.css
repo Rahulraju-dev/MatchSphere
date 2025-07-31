@@ -1,0 +1,108 @@
+/* General Page Style */
+body {
+  background-color: #df76ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centering the container */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #9ef3f1;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Ensure this class matches your form in HTML */
+form label {
+  display: block;
+  margin: 12px 0 4px;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0077cc;
+  border: none;
+  color: rgb(237, 184, 184);
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+form button:hover {
+  background-color: #005fa3;
+}
+
+.link {
+  text-align: center;
+  margin-top: 15px;
+}
+#matchList {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* .match-card {
+  grid-template-columns: auto auto;
+   color: hsl(0, 0%, 5%);
+  padding: 15px;
+  margin: 10px 0;
+   border: 4px solid;
+  border-radius: 14px;
+  background-color: #9fdf6e; 
+  
+} */
+ .match-card {
+  grid-template-columns: auto auto ;
+  max-width: 900px;
+  margin-top: 30px;
+  background-color: #f7fc91;
+  color: #111;
+  padding: 25px;
+  border: 3px solid #262726;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in;
+}
+
+.match-card:hover {
+  transform: scale(1.03);
+}
+
+.logout-btn {
+  background-color: #4aee5a;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #f6a9b1;
+  transform: scale(1.03);
+}
